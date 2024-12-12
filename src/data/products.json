@@ -1,0 +1,43 @@
+[
+    {
+        "id":1,
+        "name":"Çilekli Smoothie",
+        "image": "https://cafe.grandistgroup.com/wp-content/uploads/2024/03/cilekli-smoothie.webp#307",
+        "price":"$5",
+        "description": "Taze çilek püresi, Tam yağlı süt,Doğal bal,Bir tutam vanilya özü"
+
+    },
+       {
+        "id":1,
+        "name":"Mangolu Smoothie",
+        "image": "https://cafe.grandistgroup.com/wp-content/uploads/2024/03/mangolu-smoothie.webp#308",
+        "price":"$7",
+        "description": "Olgun mango püresi,Hindistan cevizi sütü,Biraz yoğurt,Birkaç damla lime suyu,Üzerine taze nane yaprakları"
+
+    },
+    {
+        "id":1,
+        "name":"Ananaslı Smoothie",
+        "image": "https://cafe.grandistgroup.com/wp-content/uploads/2024/03/ananasli-smoothie.webp#306",
+        "price":"$9",
+        "description": "Taze ananas püresi,Badem sütü,Biraz chia tohumu,Hafifçe tatlandırılmış bal"
+
+    },
+    {
+        "id":1,
+        "name":"Ormanmeyveli Smoothie",
+        "image": "https://cafe.grandistgroup.com/wp-content/uploads/2024/03/orman-meyveli-smoothie.webp#309",
+        "price":"$7",
+        "description": "Karışık orman meyveleri,Badem sütü,Biraz yulaf ezmesi,Doğal tatlandırıcı ,Üzerine orman meyveleri ve taze nane yaprakları"  
+
+    },
+    {
+        "id":1,
+        "name":" Şeftalili Smoothie",
+        "image": "https://cafe.grandistgroup.com/wp-content/uploads/2024/03/seftalili-smoothie.webp#310",
+        "price":"$5",
+        "description": "Şeftali dilimleri,yoğurt,Bir tutam tarçın,Hafifçe tatlandırıcı"
+
+    }
+    
+]
