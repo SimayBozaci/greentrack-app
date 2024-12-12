@@ -17,7 +17,7 @@ const HomePage = () => {
 
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>Smoothie Menu</Text>
+      <Text style={styles.title}>Hizmet Yönetimi </Text>
 
       <TextInput
         style={styles.input}
@@ -33,8 +33,8 @@ const HomePage = () => {
         keyExtractor={(item, index) => index.toString()}
         renderItem={({ item }) => (
           <View style={styles.itemContainer}>
-            <Text style={styles.productName}>{item.name}</Text>
-            <Text style={styles.productPrice}>{item.price}</Text>
+            <Text style={styles.workerName}>{item.name}</Text>
+            <Text style={styles.workerPrice}>{item.price}</Text>
 
             <View style={styles.imagebackpage}>
               <Image style={styles.image} source={{ uri: item.image }} />
@@ -51,7 +51,7 @@ const HomePage = () => {
                 });
               }}
             >
-              <Text style={styles.buttonText}>İçeceğe Git</Text>
+              <Text style={styles.buttonText}>Hakkında</Text>
             </TouchableOpacity>
           </View>
         )}
@@ -64,7 +64,7 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     alignItems: 'center',
-    backgroundColor: '#c42947',
+    backgroundColor: '#2E8B57',
     paddingTop: 19,
   },
   title: {
@@ -74,7 +74,7 @@ const styles = StyleSheet.create({
     marginBottom: 11,
   },
   input: {
-    width: '90%',
+    width: '80%',
     backgroundColor: 'white',
     padding: 10,
     borderRadius: 5,
@@ -83,32 +83,35 @@ const styles = StyleSheet.create({
   itemContainer: {
     backgroundColor: '#fff',
     borderRadius: 8,
-    padding: 15,
+    padding: 35,
     alignItems: 'center',
     marginVertical: 10,
-    width: '90%',
+    width: '100%',
   },
-  productName: {
+  workerName: {
     fontSize: 16,
     fontWeight: 'bold',
     color: '#333',
   },
-  productPrice: {
+  workerPrice: {
     fontSize: 14,
     color: '#555',
     marginVertical: 5,
   },
   button: {
     backgroundColor: '#f9b517',
-    paddingVertical: 8,
+    paddingVertical: 5,
     paddingHorizontal: 20,
     borderRadius: 5,
     marginTop: 3,
+    
   },
   buttonText: {
     color: 'white',
     fontSize: 13,
     fontWeight: 'bold',
+    width: '80%',
+    
   },
   image: {
     width: 97,

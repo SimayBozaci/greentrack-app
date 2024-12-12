@@ -7,15 +7,15 @@ const DetailsPage = ({ route, navigation }) => {
   return (
     <View style={styles.container}>
       <Image source={{ uri: image }} style={styles.image} />
-      <Text style={styles.productName}>{name}</Text>
-      <Text style={styles.productPrice}>{price}</Text>
+      <Text style={styles.workerName}>{name}</Text>
+      <Text style={styles.workerPrice}>{price}</Text>
       <Text style={styles.description}>{description}</Text>
 
       <TouchableOpacity
         style={styles.button}
         onPress={() => navigation.navigate('Rezervasyon')}
       >
-        <Text style={styles.buttonText}>Sipariş Ver</Text>
+        <Text style={styles.buttonText}>Randevu Al</Text>
       </TouchableOpacity>
 
     </View>
@@ -36,12 +36,12 @@ const styles = StyleSheet.create({
     borderRadius: 10,
     marginBottom: 20,
   },
-  productName: {
+  workerName: {
     fontSize: 20,
     fontWeight: 'bold',
     color: '#333',
   },
-  productPrice: {
+  workerPrice: {
     fontSize: 16,
     color: '#555',
     marginTop: 10,

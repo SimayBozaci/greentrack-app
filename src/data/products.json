@@ -1,42 +1,42 @@
 [
     {
         "id":1,
-        "name":"Çilekli Smoothie",
-        "image": "https://cafe.grandistgroup.com/wp-content/uploads/2024/03/cilekli-smoothie.webp#307",
+        "name":"Batuhan Kil",
+        "image": "https://cdn-icons-png.flaticon.com/512/1499/1499919.png",
         "price":"$5",
-        "description": "Taze çilek püresi, Tam yağlı süt,Doğal bal,Bir tutam vanilya özü"
+        "description": "TLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
 
     },
        {
         "id":1,
-        "name":"Mangolu Smoothie",
-        "image": "https://cafe.grandistgroup.com/wp-content/uploads/2024/03/mangolu-smoothie.webp#308",
+        "name":"Mehmet Er",
+        "image": "https://cdn-icons-png.flaticon.com/512/4086/4086652.png",
         "price":"$7",
-        "description": "Olgun mango püresi,Hindistan cevizi sütü,Biraz yoğurt,Birkaç damla lime suyu,Üzerine taze nane yaprakları"
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
 
     },
     {
         "id":1,
-        "name":"Ananaslı Smoothie",
-        "image": "https://cafe.grandistgroup.com/wp-content/uploads/2024/03/ananasli-smoothie.webp#306",
+        "name":"Semih Can",
+        "image": "https://cdn-icons-png.flaticon.com/512/436/436299.png",
         "price":"$9",
-        "description": "Taze ananas püresi,Badem sütü,Biraz chia tohumu,Hafifçe tatlandırılmış bal"
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
 
     },
     {
         "id":1,
-        "name":"Ormanmeyveli Smoothie",
-        "image": "https://cafe.grandistgroup.com/wp-content/uploads/2024/03/orman-meyveli-smoothie.webp#309",
+        "name":"Mert Kaymaz",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOuxrvcNMfGLh73uKP1QqYpKoCB0JLXiBMvA&s",
         "price":"$7",
-        "description": "Karışık orman meyveleri,Badem sütü,Biraz yulaf ezmesi,Doğal tatlandırıcı ,Üzerine orman meyveleri ve taze nane yaprakları"  
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."  
 
     },
     {
         "id":1,
-        "name":" Şeftalili Smoothie",
-        "image": "https://cafe.grandistgroup.com/wp-content/uploads/2024/03/seftalili-smoothie.webp#310",
+        "name":"Ali Ertan",
+        "image": "https://cdn-icons-png.flaticon.com/512/3898/3898099.png",
         "price":"$5",
-        "description": "Şeftali dilimleri,yoğurt,Bir tutam tarçın,Hafifçe tatlandırıcı"
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
 
     }
     

@@ -40,7 +40,7 @@ const RezervasyonPage = () => {
       />
 
       <TouchableOpacity style={styles.button} onPress={handleOrder}>
-        <Text style={styles.buttonText}>Sipariş Ver</Text>
+        <Text style={styles.buttonText}>Randevu Oluştur</Text>
       </TouchableOpacity>
       
       <Modal
@@ -51,7 +51,7 @@ const RezervasyonPage = () => {
       >
         <View style={styles.modalBackground}>
           <View style={styles.modalContainer}>
-            <Text style={styles.modalText}>Siparişiniz  oluşturuldu</Text>
+            <Text style={styles.modalText}>Randevunuz  oluşturuldu</Text>
             <TouchableOpacity
               style={styles.modalButton}
               onPress={() => setModalVisible(false)}
