@@ -1,16 +1,34 @@
 import React, { useState } from 'react';
 import { View, Text, TextInput, TouchableOpacity, StyleSheet, Modal } from 'react-native';
+import DateTimePickerModal from 'react-native-modal-datetime-picker';
 
 const RezervasyonPage = () => {
   const [name, setName] = useState('');
   const [surname, setSurname] = useState('');
   const [address, setAddress] = useState('');
+  const [selectedDate, setSelectedDate] = useState('');
   const [modalVisible, setModalVisible] = useState(false);
+  const [isDatePickerVisible, setDatePickerVisibility] = useState(false);
 
   const handleOrder = () => {
-    console.log('Sipariş verildi:', { name, surname, address });
+    console.log('Randevu Oluşturuldu:', { name, surname, address, selectedDate });
     setModalVisible(true);
   };
+
+  const showDatePicker = () => {
+    setDatePickerVisibility(true);
+  };
+
+  const hideDatePicker = () => {
+    setDatePickerVisibility(false);
+  };
+
+  const handleConfirm = (date: Date) => {
+    const formattedDate = date.toLocaleString();
+    setSelectedDate(formattedDate);
+    hideDatePicker();
+  };
+  
 
   return (
     <View style={styles.container}>
@@ -39,6 +57,20 @@ const RezervasyonPage = () => {
         multiline
       />
 
+      <Text style={styles.label}>Randevu Tarihi ve Saati:</Text>
+      <TouchableOpacity style={styles.dateButton} onPress={showDatePicker}>
+        <Text style={styles.dateButtonText}>
+          {selectedDate ? selectedDate : 'Tarih ve saat seçin'}
+        </Text>
+      </TouchableOpacity>
+
+      <DateTimePickerModal
+        isVisible={isDatePickerVisible}
+        mode="datetime"
+        onConfirm={handleConfirm}
+        onCancel={hideDatePicker}
+      />
+
       <TouchableOpacity style={styles.button} onPress={handleOrder}>
         <Text style={styles.buttonText}>Randevu Oluştur</Text>
       </TouchableOpacity>
@@ -51,7 +83,10 @@ const RezervasyonPage = () => {
       >
         <View style={styles.modalBackground}>
           <View style={styles.modalContainer}>
-            <Text style={styles.modalText}>Randevunuz  oluşturuldu</Text>
+            <Text style={styles.modalText}>
+              Randevunuz başarıyla oluşturuldu!
+            </Text>
+            <Text style={styles.modalText}>Tarih: {selectedDate}</Text>
             <TouchableOpacity
               style={styles.modalButton}
               onPress={() => setModalVisible(false)}
@@ -82,6 +117,18 @@ const styles = StyleSheet.create({
     padding: 10,
     borderRadius: 5,
     marginBottom: 20,
+  },
+  dateButton: {
+    borderWidth: 1,
+    borderColor: '#ccc',
+    padding: 10,
+    borderRadius: 5,
+    marginBottom: 20,
+    backgroundColor: '#e8e8e8',
+  },
+  dateButtonText: {
+    fontSize: 16,
+    color: '#333',
   },
   button: {
     backgroundColor: 'orange',
