@@ -71,7 +71,7 @@
 import React, { useState } from 'react';
 import { StyleSheet, Text, View, TouchableOpacity, Image } from 'react-native';
 import { useRoute } from '@react-navigation/native';
-import StarRating from './Rating'; // Yıldızlama componenti
+import StarRating from './Rating';
 
 const Details = () => {
   const route = useRoute();
@@ -80,7 +80,7 @@ const Details = () => {
 
   const handleRating = (newRating: number) => {
     setRating(newRating);
-    // Burada, rating'i bir veri kaynağına veya API'ye kaydedebilirsiniz.
+    // Burada rating'i bir veri kaynağına veya API'ye kadedicem!!!
   };
 
   return (
