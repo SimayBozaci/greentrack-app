@@ -126,7 +126,7 @@ const styles = StyleSheet.create({
     marginTop: 10,
   },
   description: {
-    fontSize: 14,
+    fontSize: 15,
     color: 'white',
     marginTop: 5,
     marginHorizontal: 20,
