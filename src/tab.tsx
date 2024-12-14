@@ -2,7 +2,7 @@ import React from 'react';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { Image } from 'react-native';
 
-import HomeScreen from './containers/HomeScreen';
+import HomeScreen from './containers/HizmetSağlayıcılarScreen';
 
 
 const Tab = createBottomTabNavigator();

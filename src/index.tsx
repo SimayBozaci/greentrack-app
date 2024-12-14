@@ -1,4 +1,4 @@
-import HomeScreen from './containers/HomeScreen';
+import HomeScreen from './containers/HizmetSağlayıcılarScreen';
 
 export { HomeScreen};
 

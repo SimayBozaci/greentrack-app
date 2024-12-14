@@ -1,12 +1,11 @@
 import React from 'react';
 import { StyleSheet, View } from 'react-native';
-import HomeHeader from '../components/HomeHeader';
-import HomePage from '../components/HomePage';
-const HomeScreen = () => {
+import HizmetSağlayıcılar from '../components/HizmetSağlayıcılar';
+
+const HizmetSağlayıcılarScreen = () => {
   return (
     <View style={styles.container}>
-      <HomeHeader />
-      <HomePage />
+      <HizmetSağlayıcılar />
     </View>
   );
 };
@@ -18,4 +17,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default HomeScreen;
+export default HizmetSağlayıcılarScreen;

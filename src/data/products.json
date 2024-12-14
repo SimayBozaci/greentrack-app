@@ -38,6 +38,45 @@
         "price":"$5",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
 
+    },
+    {
+        "id":1,
+        "name":"Ali Er",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOuxrvcNMfGLh73uKP1QqYpKoCB0JLXiBMvA&s",
+        "price":"$5",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+
+    }, {
+        "id":1,
+        "name":"Volkan Sağlam",
+        "image": "https://cdn-icons-png.flaticon.com/512/436/436299.png",
+        "price":"$5",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+
+    },
+    {
+        "id":1,
+        "name":"Taner Bal",
+        "image": "https://cdn-icons-png.flaticon.com/512/3898/3898099.png",
+        "price":"$5",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+
+    },
+    {
+        "id":1,
+        "name":"Kenan Tan",
+        "image": "https://cdn-icons-png.flaticon.com/512/1499/1499919.png",
+        "price":"$5",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+
+    },
+    {
+        "id":1,
+        "name":"Barış Ufuk",
+        "image": "https://cdn-icons-png.flaticon.com/512/4086/4086652.png",
+        "price":"$5",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+
     }
     
 ]
