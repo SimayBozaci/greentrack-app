@@ -16,7 +16,7 @@ const Details = () => {
 
   return (
     <View style={styles.container}>
-      {/* Geri gitmek için buton eklşyorum*/}
+
       <TouchableOpacity
         style={styles.backButton}
         onPress={() => navigation.goBack()} // Geri gitmek için goBack() fonksiyonu

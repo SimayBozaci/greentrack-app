@@ -2,11 +2,13 @@ import React from 'react';
 import { NavigationContainer } from '@react-navigation/native';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
+import HomeScreen from './src/components/HomeScreen';
 import HizmetSağlayıcılar from './src/components/HizmetSağlayıcılar';
 import Details from './src/components/DetailsPage';
 import RezervasyonPage from './src/components/Rezervasyon';
 import { Image } from 'react-native';
-import HomeScreen from './src/components/HomeScreen';
+
+
 
 const Tab = createBottomTabNavigator();
 const Stack = createNativeStackNavigator();
@@ -56,9 +58,13 @@ const App = () => {
           component={HizmetSaglayicilarStack}
         />
         <Tab.Screen name="Rezervasyon" component={RezervasyonPage} />
+        
       </Tab.Navigator>
     </NavigationContainer>
   );
 };
 
 export default App;
+
+
+  
