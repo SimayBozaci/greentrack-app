@@ -1618,6 +1618,27 @@ PODS:
     - React-logger (= 0.76.3)
     - React-perflogger (= 0.76.3)
     - React-utils (= 0.76.3)
+  - RNCAsyncStorage (2.1.0):
+    - DoubleConversion
+    - glog
+    - hermes-engine
+    - RCT-Folly (= 2024.01.01.00)
+    - RCTRequired
+    - RCTTypeSafety
+    - React-Core
+    - React-debug
+    - React-Fabric
+    - React-featureflags
+    - React-graphics
+    - React-ImageManager
+    - React-NativeModulesApple
+    - React-RCTFabric
+    - React-rendererdebug
+    - React-utils
+    - ReactCodegen
+    - ReactCommon/turbomodule/bridging
+    - ReactCommon/turbomodule/core
+    - Yoga
   - RNDateTimePicker (8.2.0):
     - DoubleConversion
     - glog
@@ -1883,6 +1904,7 @@ DEPENDENCIES:
   - React-utils (from `../node_modules/react-native/ReactCommon/react/utils`)
   - ReactCodegen (from `build/generated/ios`)
   - ReactCommon/turbomodule/core (from `../node_modules/react-native/ReactCommon`)
+  - "RNCAsyncStorage (from `../node_modules/@react-native-async-storage/async-storage`)"
   - "RNDateTimePicker (from `../node_modules/@react-native-community/datetimepicker`)"
   - RNGestureHandler (from `../node_modules/react-native-gesture-handler`)
   - RNReanimated (from `../node_modules/react-native-reanimated`)
@@ -2024,6 +2046,8 @@ EXTERNAL SOURCES:
     :path: build/generated/ios
   ReactCommon:
     :path: "../node_modules/react-native/ReactCommon"
+  RNCAsyncStorage:
+    :path: "../node_modules/@react-native-async-storage/async-storage"
   RNDateTimePicker:
     :path: "../node_modules/@react-native-community/datetimepicker"
   RNGestureHandler:
@@ -2102,6 +2126,7 @@ SPEC CHECKSUMS:
   React-utils: 2bcaf4f4dfe361344bce2fae428603d518488630
   ReactCodegen: ae99a130606068ed40d1d9c0d5f25fda142a0647
   ReactCommon: 89c87b343deacc8610b099ac764848f0ce937e3e
+  RNCAsyncStorage: fe98f1b459a87b80f12207da80c50b3a3abb6081
   RNDateTimePicker: 6008d74df8122d6af6d9d08096bff19a8c6ba647
   RNGestureHandler: 0e5ae8d72ef4afb855e98dcdbe60f27d938abe13
   RNReanimated: eb3170ded1ec1f61d8129c6cc2df06778f99703f
