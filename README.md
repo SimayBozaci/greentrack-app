@@ -1,3 +1,35 @@
-![1](https://github.com/user-attachments/assets/b906f1b2-7641-4f4d-babf-bea67d9db5bc)
-![2](https://github.com/user-attachments/assets/b070ac24-27ae-45b7-b8f6-3e6dba673ad3)
-![3](https://github.com/user-attachments/assets/49d09b99-7973-4f94-8016-818919c7e6d2)
+# GreenTrack – Karbon Ayak İzi Takip Uygulaması 🌱
+
+GreenTrack, bireylerin günlük alışkanlıklarına göre tahmini karbon ayak izini hesaplayan bir mobil uygulamadır.  
+Mobil uygulama ile Python backend (Flask API) gerçek zamanlı olarak entegredir.
+
+ Özellikler
+- React Native ile geliştirilen kullanıcı arayüzü
+- Flask tabanlı Python API ile karbon ayak izi hesaplama
+- Axios ile kullanıcı verilerinin API'ye gönderilmesi
+- Gerçek zamanlı JSON sonucu ve dinamik sonuç ekranı
+
+ Hesaplama Parametreleri
+- Günlük araba ile gidilen km
+- Haftalık et tüketimi (gün bazında)
+- Aylık elektrik tüketimi (kWh)
+
+Teknolojiler
+- React Native (TypeScript)
+- Python Flask API
+- Axios / JSON entegrasyonu
+- SSH ile GitHub yönetimi
+
+ Proje Akışı
+1. Kullanıcı verileri Form ekranında girer
+2. Veriler Flask API'ye gönderilir
+3. Python API sonucu hesaplar ve JSON döner
+4. Mobil ekran sonucu dinamik olarak gösterir
+
+Geliştirici
+**Simay Bozacı**  
+[LinkedIn](https://linkedin.com/in/simaybozaci) • [GitHub](https://github.com/simaybozaci)
+
+
+
+Bu projemde hem veri mühendisliği hem de mobil yazılım geliştirme alanındaki yetkinliklerimi bir araya getirdim.
