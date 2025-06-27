@@ -26,10 +26,6 @@ Teknolojiler
 3. Python API sonucu hesaplar ve JSON döner
 4. Mobil ekran sonucu dinamik olarak gösterir
 
-Geliştirici
-**Simay Bozacı**  
-[LinkedIn](https://linkedin.com/in/simaybozaci) • [GitHub](https://github.com/simaybozaci)
-
 
 
 Bu projemde hem veri mühendisliği hem de mobil yazılım geliştirme alanındaki yetkinliklerimi bir araya getirdim.
