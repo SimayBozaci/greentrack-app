@@ -1,0 +1,8 @@
+{
+    "car_emission_kg": 23100.0,
+    "meat_emission_kg": 21.43,
+    "electricity_emission_kg": 23.75,
+    "water_emission_kg": 0.15,
+    "natural_gas_emission_kg": 34.17,
+    "total_daily_emission_kg": 23179.5
+}
