@@ -47,4 +47,4 @@ if __name__ == "__main__":
     with open("carbon_output.json", "w") as f:
         json.dump(result, f, indent=4)
 
-    print("✅ Karbon ayak izi hesaplandı ve 'carbon_output.json' dosyasına yazıldı.")
+    print("Karbon ayak izi hesaplandı ve 'carbon_output.json' dosyasına yazıldı.")

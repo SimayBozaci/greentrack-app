@@ -2,9 +2,9 @@ from flask import Flask, request, jsonify
 from flask_cors import CORS
 
 app = Flask(__name__)
-CORS(app)  # Mobil uygulamadan erişim için CORS aç
+CORS(app)
 
-@app.route('/calculate', methods=['POST'])#veriyi alıyorum
+@app.route('/calculate', methods=['POST'])#veriyi aldım
 def calculate():
     data = request.get_json()
 
