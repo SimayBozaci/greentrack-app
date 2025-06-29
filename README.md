@@ -27,5 +27,11 @@ Teknolojiler
 4. Mobil ekran sonucu dinamik olarak gösterir
 
 
-
 Bu projemde hem veri mühendisliği hem de mobil yazılım geliştirme alanındaki yetkinliklerimi bir araya getirdim.
+
+![Resultscreen](https://github.com/user-attachments/assets/ab74ace9-7519-4f27-871f-9b1502dd6479)
+![FormScreen2](https://github.com/user-attachments/assets/5e09e022-7562-438d-8d7e-414ef5864a3d)
+![FormScreen1](https://github.com/user-attachments/assets/a6d95ebf-ca0d-43e4-8bd0-acd15fb7538e)
+![homepage](https://github.com/user-attachments/assets/c74ac886-f8ff-4921-ae72-211449b47535)
+
+
