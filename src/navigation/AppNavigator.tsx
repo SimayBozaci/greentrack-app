@@ -6,10 +6,13 @@ import FormScreen from '../component/screen/FormScreen';
 import ResultsScreen from '../component/screen/ResultsScreen';
 import type { RootStackParamList } from './types'; 
 
-const Stack = createNativeStackNavigator<RootStackParamList>();
+const Stack = createNativeStackNavigator<RootStackParamList>();//ekranlara gönderilecek verilerin tipini tanımla
+
+//Tip güvenliği sağlıyorum yanlış parametre gönderildiğinde hata versin.
 
 const AppNavigator = () => {
   return (
+    //ekran açılınca ilk görülen home 
     <NavigationContainer>
       <Stack.Navigator initialRouteName="Home">
         <Stack.Screen name="Home" component={HomeScreen} options={{ headerShown: false }}/>
@@ -19,5 +22,6 @@ const AppNavigator = () => {
     </NavigationContainer>
   );
 };
+
 
 export default AppNavigator;
