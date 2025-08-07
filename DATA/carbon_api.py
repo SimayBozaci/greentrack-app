@@ -13,9 +13,9 @@ def calculate():
     electricity = data.get('electricity', 0)
 
     total_emission = (
-        car_km * 0.21 +
-        (meat_days / 7.0) * 5.0 +
-        (electricity / 30.0) * 0.475
+        car_km * 0.23 +
+        (meat_days / 9.0) * 3.0 +
+        (electricity / 65.0) * 0.475
     )
 
     result = {
