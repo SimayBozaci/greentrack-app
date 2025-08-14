@@ -3,20 +3,20 @@ import { View, Text, TouchableOpacity, StyleSheet, ImageBackground } from 'react
 import type { NativeStackScreenProps } from '@react-navigation/native-stack';
 import type { RootStackParamList } from '../../navigation/types';
 
-type Props = NativeStackScreenProps<RootStackParamList, 'Home'>;
+type Props = NativeStackScreenProps<RootStackParamList, 'Home'>;//tip özelliklerini importladım
 
 const HomeScreen: React.FC<Props> = ({ navigation }) => {
   return (
     <ImageBackground
       source={require('../../assets/forest.jpg')}
       style={styles.background}
-      resizeMode="cover"
+      resizeMode="cover"//tamamen
     >
       <View style={styles.overlay}>
         <Text style={styles.title}>GreenTrack'e Hoş Geldiniz 🌱</Text>
         <View style={styles.backdescription}>
         <Text style={styles.description}>
-          Günlük alışkanlıklarınızı girerek karbon ayak izinizi hesaplayın ve sürdürülebilir yaşama katkı sağlayın.
+          Günlük alışkanlıklarınızı girerek karbon ayak izinizi hesaplayın ve sürdürülebilir yaşama sizde katkı sağlayın.
         </Text>
         </View>
 
@@ -35,7 +35,7 @@ const styles = StyleSheet.create({
   },
   overlay: {
     flex: 1,
-    backgroundColor: 'rgba(0, 100, 0, 0.5)', 
+    backgroundColor: 'rgba(0, 100, 0, 0.5)', //yarısaydam 
     justifyContent: 'center',
     alignItems: 'center',
     padding: 24,
